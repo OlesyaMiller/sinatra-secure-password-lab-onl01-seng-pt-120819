@@ -23,7 +23,8 @@ class ApplicationController < Sinatra::Base
     else
       user.save
 			redirect "/login"
-		end
+    end
+    
   end
 
   get '/account' do
